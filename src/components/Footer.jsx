@@ -1,6 +1,9 @@
+import Logo from "./Logo";
+
 function Footer() {
   return (
-    <footer>
+    <footer style={{ paddingTop: "5rem" }}>
+      <Logo />
       <p>&copy; 2024</p>
     </footer>
   );

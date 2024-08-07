@@ -1,14 +1,16 @@
 import "./App.css";
-import Counter from "./Counter";
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import ProjectExamples from "./components/ProjectExamples";
+import ProjectInfo from "./components/ProjectInfo";
 
 function App() {
   return (
     <>
       <Navbar />
       <main>
-        <Counter />
+        <ProjectInfo />
+        <ProjectExamples />
       </main>
       <Footer />
     </>
